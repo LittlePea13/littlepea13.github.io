@@ -52,7 +52,7 @@ education:
   - area: M.Sc. Artificial Intelligence
     institution: University of Amsterdam
     date_start: 2019-09-01
-    date_end: 2020-06-31
+    date_end: 2020-06-30
     # summary: |
     #   GPA: 3.8/4.0
 
