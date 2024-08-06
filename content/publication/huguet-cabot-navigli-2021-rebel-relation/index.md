@@ -22,6 +22,8 @@ abstract: Extracting relation triplets from raw text is a crucial task in Inform
   types. We show our model′s flexibility by fine-tuning it on an array of Relation
   Extraction and Relation Classification benchmarks, with it attaining state-of-the-art
   performance in most of them.
+featured: true
+url_code: 'https://github.com/Babelscape/rebel'
 links:
 - name: URL
   url: https://aclanthology.org/2021.findings-emnlp.204

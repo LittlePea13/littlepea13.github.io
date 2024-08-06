@@ -26,6 +26,8 @@ abstract: Relation Extraction (RE) is a task that identifies relationships betwe
   end-to-end multilingual RE model, mREBEL, that extracts triplets, including entity
   types, in multiple languages. We release our resources and model checkpoints at
   [r̆lhttps://www.github.com/babelscape/rebel](l̆https://www.github.com/babelscape/rebel).
+featured: true
+url_code: 'https://github.com/Babelscape/rebel'
 links:
 - name: URL
   url: https://aclanthology.org/2023.acl-long.237
