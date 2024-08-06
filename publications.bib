@@ -1,0 +1,153 @@
+@inproceedings{conia-etal-2024-mosaico,
+    title = "{MOSAIC}o: a Multilingual Open-text Semantically Annotated Interlinked Corpus",
+    author = "Conia, Simone  and
+      Barba, Edoardo  and
+      Martinez Lorenzo, Abelardo Carlos  and
+      Huguet Cabot, Pere-Llu{\'\i}s  and
+      Orlando, Riccardo  and
+      Procopio, Luigi  and
+      Navigli, Roberto",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.442",
+    doi = "10.18653/v1/2024.naacl-long.442",
+    pages = "7990--8004",
+    abstract = "Several Natural Language Understanding (NLU) tasks focus on linking text to explicit knowledge, including Word Sense Disambiguation, Semantic Role Labeling, Semantic Parsing, and Relation Extraction. In addition to the importance of connecting raw text with explicit knowledge bases, the integration of such carefully curated knowledge into deep learning models has been shown to be beneficial across a diverse range of applications, including Language Modeling and Machine Translation. Nevertheless, the scarcity of semantically-annotated corpora across various tasks and languages limits the potential advantages significantly. To address this issue, we put forward MOSAICo, the first endeavor aimed at equipping the research community with the key ingredients to model explicit semantic knowledge at a large scale, providing hundreds of millions of silver yet high-quality annotations for four NLU tasks across five languages. We describe the creation process of MOSAICo, demonstrate its quality and variety, and analyze the interplay between different types of semantic information. MOSAICo, available at https://github.com/SapienzaNLP/mosaico, aims to drop the requirement of closed, licensed datasets and represents a step towards a level playing field across languages and tasks in NLU.",
+}
+@inproceedings{martinez-lorenzo-etal-2023-cross,
+    title = "Cross-lingual {AMR} Aligner: Paying Attention to Cross-Attention",
+    author = "Mart{\'\i}nez Lorenzo, Abelardo Carlos  and
+      Huguet Cabot, Pere Llu{\'\i}s  and
+      Navigli, Roberto",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.109",
+    doi = "10.18653/v1/2023.findings-acl.109",
+    pages = "1726--1742",
+    abstract = "This paper introduces a novel aligner for Abstract Meaning Representation (AMR) graphs that can scale cross-lingually, and is thus capable of aligning units and spans in sentences of different languages. Our approach leverages modern Transformer-based parsers, which inherently encode alignment information in their cross-attention weights, allowing us to extract this information during parsing. This eliminates the need for English-specific rules or the Expectation Maximization (EM) algorithm that have been used in previous approaches. In addition, we propose a guided supervised method using alignment to further enhance the performance of our aligner. We achieve state-of-the-art results in the benchmarks for AMR alignment and demonstrate our aligner{'}s ability to obtain them across multiple languages. Our code will be available at [\url{https://www.github.com/babelscape/AMR-alignment}](\url{https://www.github.com/babelscape/AMR-alignment}).",
+}
+@inproceedings{vasylenko-etal-2023-incorporating,
+    title = "Incorporating Graph Information in Transformer-based {AMR} Parsing",
+    author = "Vasylenko, Pavlo  and
+      Huguet Cabot, Pere Llu{\'\i}s  and
+      Mart{\'\i}nez Lorenzo, Abelardo Carlos  and
+      Navigli, Roberto",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.125",
+    doi = "10.18653/v1/2023.findings-acl.125",
+    pages = "1995--2011",
+    abstract = "Abstract Meaning Representation (AMR) is a Semantic Parsing formalism that aims at providing a semantic graph abstraction representing a given text. Current approaches are based on autoregressive language models such as BART or T5, fine-tuned through Teacher Forcing to obtain a linearized version of the AMR graph from a sentence. In this paper, we present LeakDistill, a model and method that explores a modification to the Transformer architecture, using structural adapters to explicitly incorporate graph information into the learned representations and improve AMR parsing performance. Our experiments show how, by employing word-to-node alignment to embed graph structural information into the encoder at training time, we can obtain state-of-the-art AMR parsing through self-knowledge distillation, even without the use of additional data. We release the code at [\url{http://www.github.com/sapienzanlp/LeakDistill}](\url{http://www.github.com/sapienzanlp/LeakDistill}).",
+}
+@inproceedings{huguet-cabot-etal-2023-red,
+    title = "{RED}$^{\textrm{FM}}$: a Filtered and Multilingual Relation Extraction Dataset",
+    author = "Huguet Cabot, â€ªPere-Llu{\'\i}s  and
+      Tedeschi, Simone  and
+      Ngonga Ngomo, Axel-Cyrille  and
+      Navigli, Roberto",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.237",
+    doi = "10.18653/v1/2023.acl-long.237",
+    pages = "4326--4343",
+    abstract = "Relation Extraction (RE) is a task that identifies relationships between entities in a text, enabling the acquisition of relational facts and bridging the gap between natural language and structured knowledge. However, current RE models often rely on small datasets with low coverage of relation types, particularly when working with languages other than English.In this paper, we address the above issue and provide two new resources that enable the training and evaluation of multilingual RE systems. First, we present SRED$^{\textrm{FM}}$, an automatically annotated dataset covering 18 languages, 400 relation types, 13 entity types, totaling more than 40 million triplet instances. Second, we propose RED$^{\textrm{FM}}$, a smaller, human-revised dataset for seven languages that allows for the evaluation of multilingual RE systems. To demonstrate the utility of these novel datasets, we experiment with the first end-to-end multilingual RE model, mREBEL, that extracts triplets, including entity types, in multiple languages. We release our resources and model checkpoints at [\url{https://www.github.com/babelscape/rebel}](\url{https://www.github.com/babelscape/rebel}).",
+}
+@inproceedings{martinez-lorenzo-etal-2023-amrs,
+    title = "{AMR}s Assemble! Learning to Ensemble with Autoregressive Models for {AMR} Parsing",
+    author = "Mart{\'\i}nez Lorenzo, Abelardo Carlos  and
+      Huguet Cabot, Pere Llu{\'\i}s  and
+      Navigli, Roberto",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.137",
+    doi = "10.18653/v1/2023.acl-short.137",
+    pages = "1595--1605",
+    abstract = "In this paper, we examine the current state-of-the-art in AMR parsing, which relies on ensemble strategies by merging multiple graph predictions. Our analysis reveals that the present models often violate AMR structural constraints. To address this issue, we develop a validation method, and show how ensemble models can exploit SMATCH metric weaknesses to obtain higher scores, but sometimes result in corrupted graphs. Additionally, we highlight the demanding need to compute the SMATCH score among all possible predictions. To overcome these challenges, we propose two novel ensemble strategies based on Transformer models, improving robustness to structural constraints, while also reducing the computational time. Our methods provide new insights for enhancing AMR parsers and metrics. Our code is available at [\url{https://www.github.com/babelscape/AMRs-Assemble}](\url{https://www.github.com/babelscape/AMRs-Assemble}).",
+}
+@inproceedings{huguet-cabot-navigli-2021-rebel-relation,
+    title = "{REBEL}: Relation Extraction By End-to-end Language generation",
+    author = "Huguet Cabot, Pere-Llu{\'\i}s  and
+      Navigli, Roberto",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.204",
+    doi = "10.18653/v1/2021.findings-emnlp.204",
+    pages = "2370--2381",
+    abstract = "Extracting relation triplets from raw text is a crucial task in Information Extraction, enabling multiple applications such as populating or validating knowledge bases, factchecking, and other downstream tasks. However, it usually involves multiple-step pipelines that propagate errors or are limited to a small number of relation types. To overcome these issues, we propose the use of autoregressive seq2seq models. Such models have previously been shown to perform well not only in language generation, but also in NLU tasks such as Entity Linking, thanks to their framing as seq2seq tasks. In this paper, we show how Relation Extraction can be simplified by expressing triplets as a sequence of text and we present REBEL, a seq2seq model based on BART that performs end-to-end relation extraction for more than 200 different relation types. We show our model{'}s flexibility by fine-tuning it on an array of Relation Extraction and Relation Classification benchmarks, with it attaining state-of-the-art performance in most of them.",
+}
+@inproceedings{huguet-cabot-etal-2021-us,
+    title = "Us vs. Them: A Dataset of Populist Attitudes, News Bias and Emotions",
+    author = "Huguet Cabot, Pere-Llu{\'\i}s  and
+      Abadi, David  and
+      Fischer, Agneta  and
+      Shutova, Ekaterina",
+    editor = "Merlo, Paola  and
+      Tiedemann, Jorg  and
+      Tsarfaty, Reut",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eacl-main.165",
+    doi = "10.18653/v1/2021.eacl-main.165",
+    pages = "1921--1945",
+    abstract = "Computational modelling of political discourse tasks has become an increasingly important area of research in the field of natural language processing. Populist rhetoric has risen across the political sphere in recent years; however, due to its complex nature, computational approaches to it have been scarce. In this paper, we present the new Us vs. Them dataset, consisting of 6861 Reddit comments annotated for populist attitudes and the first large-scale computational models of this phenomenon. We investigate the relationship between populist mindsets and social groups, as well as a range of emotions typically associated with these. We set a baseline for two tasks associated with populist attitudes and present a set of multi-task learning models that leverage and demonstrate the importance of emotion and group identification as auxiliary tasks.",
+}
+@inproceedings{huguet-cabot-etal-2020-pragmatics,
+    title = "{T}he {P}ragmatics behind {P}olitics: {M}odelling {M}etaphor, {F}raming and {E}motion in {P}olitical {D}iscourse",
+    author = "Huguet Cabot, Pere-Llu{\'\i}s  and
+      Dankers, Verna  and
+      Abadi, David  and
+      Fischer, Agneta  and
+      Shutova, Ekaterina",
+    editor = "Cohn, Trevor  and
+      He, Yulan  and
+      Liu, Yang",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.findings-emnlp.402",
+    doi = "10.18653/v1/2020.findings-emnlp.402",
+    pages = "4479--4488",
+    abstract = "There has been an increased interest in modelling political discourse within the natural language processing (NLP) community, in tasks such as political bias and misinformation detection, among others. Metaphor-rich and emotion-eliciting communication strategies are ubiquitous in political rhetoric, according to social science research. Yet, none of the existing computational models of political discourse has incorporated these phenomena. In this paper, we present the first joint models of metaphor, emotion and political rhetoric, and demonstrate that they advance performance in three tasks: predicting political perspective of news articles, party affiliation of politicians and framing of policy issues.",
+}
