@@ -63,11 +63,11 @@ education:
   - area: B.Sc. Mathematics
     institution: University of Barcelona
     date_start: 2011-09-01
-    date_end: 2017-06-31
+    date_end: 2017-06-30
   - area: B.Sc. Physics
     institution: University of Barcelona
     date_start: 2011-09-01
-    date_end: 2017-06-31
+    date_end: 2017-06-30
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
