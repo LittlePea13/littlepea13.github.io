@@ -110,7 +110,6 @@ work:
       Responsabilities:
       - Web developer using Angular.
       - Machine Learning programmer with Python and R.
-
 # # Skills
 # # Add your own SVG icons to `assets/media/icons/`
 # skills:
@@ -144,7 +143,6 @@ work:
 #         description: ''
 #         percent: 80
 #         icon: camera
-
 languages:
   - name: Catalan
     percent: 100
@@ -156,7 +154,6 @@ languages:
     percent: 75
   - name: German
     percent 25
-
 # # Awards.
 # #   Add/remove as many awards below as you like.
 # #   Only `title`, `awarder`, and `date` are required.
