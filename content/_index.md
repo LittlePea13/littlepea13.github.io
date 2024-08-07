@@ -28,14 +28,14 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Publications
       filters:
         folders:
           - publication
-        featured_only: true
+        featured_only: false
     design:
       view: article-grid
-      columns: 2
+      columns: 3
   - block: experience
     content:
       username: admin
@@ -44,14 +44,14 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: skills
-    content:
-      title: Skills & Hobbies
-      username: admin
-  - block: awards
-    content:
-      title: Awards
-      username: admin
+  # - block: skills
+  #   content:
+  #     title: Skills & Hobbies
+  #     username: admin
+  # - block: awards
+  #   content:
+  #     title: Awards
+  #     username: admin
   - block: languages
     content:
       title: Languages
