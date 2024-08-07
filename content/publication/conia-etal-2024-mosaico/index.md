@@ -32,6 +32,7 @@ abstract: Several Natural Language Understanding (NLU) tasks focus on linking te
   MOSAICo, available at https://github.com/SapienzaNLP/mosaico, aims to drop the requirement
   of closed, licensed datasets and represents a step towards a level playing field
   across languages and tasks in NLU.
+featured: true
 links:
 - name: URL
   url: https://aclanthology.org/2024.naacl-long.442

@@ -14,4 +14,5 @@ publication: '*Findings of the Association for Computational Linguistics: ACL 20
 links:
 - name: URL
   url: https://github.com/sapienzanlp/relik
+featured: true
 ---
