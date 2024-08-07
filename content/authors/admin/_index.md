@@ -153,7 +153,7 @@ languages:
   - name: Italian
     percent: 75
   - name: German
-    percent 25
+    percent: 25
 # # Awards.
 # #   Add/remove as many awards below as you like.
 # #   Only `title`, `awarder`, and `date` are required.
