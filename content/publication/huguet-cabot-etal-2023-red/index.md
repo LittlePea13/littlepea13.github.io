@@ -1,7 +1,7 @@
 ---
 title: 'RED$^textrmFM$: a Filtered and Multilingual Relation Extraction Dataset'
 authors:
-- â€ªPere-Lluı́s Huguet Cabot
+- Pere-Lluı́s Huguet Cabot
 - Simone Tedeschi
 - Axel-Cyrille Ngonga Ngomo
 - Roberto Navigli
