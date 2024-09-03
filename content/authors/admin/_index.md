@@ -79,7 +79,7 @@ work:
       Achievements:
       - Creator of the Relation Extraction model [REBEL](https://github.com/Babeslcape/rebel) (+400 stars in Github, +2M downloads at Hugginface).
       - Part of the team behind Minerva, the first family of Italian LLM trained from scratch (1B, 3B and 7B).
-      - Developed the closed Information Extraction model [ReLiK](https://github.com/sapienzaNLP/relik) (+100 stars in Github).
+      - Developed the closed Information Extraction model [ReLiK](https://github.com/sapienzaNLP/relik) (+250 stars in Github).
       - Served as a Teaching Assistant for Natural Language Processing M.Sc. course.
   - position: Instep Intern
     company_name: Infosys Bangalore
