@@ -30,12 +30,10 @@ profiles:
   - icon: at-symbol
     url: 'mailto:perelluis1993@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
     url: https://github.com/littlepea13
   - icon: brands/linkedin
-    url: https://www.linkedin.com/perelluis
+    url: https://www.linkedin.com/in/perelluis/
   - icon: brands/google-scholar
     url: https://scholar.google.com/citations?user=HeqN6q8AAAAJ
 
