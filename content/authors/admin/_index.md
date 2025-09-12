@@ -72,7 +72,7 @@ work:
     company_url: ''
     company_logo: 'Meta_Platforms_logo'
     date_start: 2025-02-01
-    date_end: Current
+    date_end: ''
     summary: |2-
       Working on embeddings and embedding reasoning models under the supervision of Holger Schwenk.
   - position: Marie Sklodowska Curie Ph.D.
