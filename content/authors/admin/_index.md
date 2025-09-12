@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. in Artificial Intelligence
+role: Postdoctoral Researcher at FAIR.
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Sapienza University of Rome
-    url: https://www.uniroma1.it/it/pagina-strutturale/home
+  - name: Meta FAIR 
+    url: https://ai.meta.com/research/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -43,7 +43,7 @@ education:
     date_start: 2021-09-01
     date_end: 2024-10-31
     summary: |
-      Thesis on _Information Extraction_. Presented papers at ACL, EMNLP, NAACL, EACL.
+      Thesis on _Information Extraction_. Awarded cum laude. Presented papers at ACL, EMNLP, NAACL, EACL. 
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
@@ -67,6 +67,14 @@ education:
     date_start: 2011-09-01
     date_end: 2017-06-30
 work:
+  - position: Postdoctoral Researcher at FAIR
+    company_name: Meta
+    company_url: ''
+    company_logo: 'Meta_Platforms_logo'
+    date_start: 2025-02-01
+    date_end: Current
+    summary: |2-
+      Working on embeddings and embedding reasoning models under the supervision of Holger Schwenk.
   - position: Marie Sklodowska Curie Ph.D.
     company_name: Sapienza University and Babelscape
     company_url: ''
