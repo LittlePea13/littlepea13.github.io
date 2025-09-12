@@ -70,7 +70,7 @@ work:
   - position: Postdoctoral Researcher at FAIR
     company_name: Meta
     company_url: ''
-    company_logo: 'Meta_Platforms_logo'
+    company_logo: 'custom/Meta_Platforms_logo'
     date_start: 2025-02-01
     date_end: ''
     summary: |2-
