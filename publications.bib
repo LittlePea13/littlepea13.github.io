@@ -1,7 +1,118 @@
+@article{perrella-etal-2024-beyond,
+    title = "Beyond Correlation: Interpretable Evaluation of Machine Translation Metrics",
+    author = "Perrella, Stefano  and
+      Proietti, Lorenzo  and
+      Huguet Cabot, Pere-Lluís  and
+      Barba, Edoardo  and
+      Navigli, Roberto",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.1152/",
+    doi = "10.18653/v1/2024.emnlp-main.1152",
+    pages = "20689--20714",
+    abstract = "Machine Translation (MT) evaluation metrics assess translation quality automatically. Recently, researchers have employed MT metrics for various new use cases, such as data filtering and translation re-ranking. However, most MT metrics return assessments as scalar scores that are difficult to interpret, posing a challenge to making informed design choices. Moreover, MT metrics' capabilities have historically been evaluated using correlation with human judgment, which, despite its efficacy, falls short of providing intuitive insights into metric performance, especially in terms of new metric use cases. To address these issues, we introduce an interpretable evaluation framework for MT metrics. Within this framework, we evaluate metrics in two scenarios that serve as proxies for the data filtering and translation re-ranking use cases. Furthermore, by measuring the performance of MT metrics using Precision, Recall, and F-score, we offer clearer insights into their capabilities than correlation with human judgments. Finally, we raise concerns regarding the reliability of manually curated data following the Direct Assessments+Scalar Quality Metrics (DA+SQM) guidelines, reporting a notably low agreement with Multidimensional Quality Metrics (MQM) annotations."
+}
+@article{orlando-etal-2024-minerva,
+    title = "Minerva {LLM}s: The First Family of Large Language Models Trained from Scratch on {I}talian Data",
+    author = "Orlando, Riccardo  and
+      Moroni, Luca  and
+      Huguet Cabot, Pere-Lluís and
+      Conia, Simone  and
+      Barba, Edoardo  and
+      Orlandini, Sergio  and
+      Fiameni, Giuseppe  and
+      Navigli, Roberto",
+    editor = "Dell'Orletta, Felice  and
+      Lenci, Alessandro  and
+      Montemagni, Simonetta  and
+      Sprugnoli, Rachele",
+    booktitle = "Proceedings of the Tenth Italian Conference on Computational Linguistics (CLiC-it 2024)",
+    month = dec,
+    year = "2024",
+    address = "Pisa, Italy",
+    publisher = "CEUR Workshop Proceedings",
+    url = "https://aclanthology.org/2024.clicit-1.77/",
+    pages = "707--719",
+    ISBN = "979-12-210-7060-6",
+    abstract = "The increasing popularity of Large Language Models (LLMs) has led to a surge in research on adapting existing models to different languages. However, the pretraining of non-English LLMs is still an underexplored area and there is no open-source endeavor that explores what is achievable with open Italian data. To address this issue, we present Minerva, the first family of LLMs trained from scratch on Italian data. The creation of Minerva is an opportunity to explore and investigate the pretraining of LLMs for the Italian language, outlining the challenges that arise when training LLMs with native Italian texts. Minerva demonstrates that an LLM for a specific language brings a number of practical benefits compared to the adaptation of an existing one, including deep control over the composition of the vocabulary and the training data. With this paper, we aim to provide a comprehensive overview of the design choices, results, and evaluation of our Minerva models, showing promising results on Italian benchmarks and downstream tasks. Most importantly, we share what we learned and the findings obtained during the development of Minerva, as we believe that our experience will be valuable for the academic and industrial communities interested in training non-English LLMs from scratch."
+}
+@article{moroni-etal-2025-optimizing,
+    title = "Optimizing {LLM}s for {I}talian: Reducing Token Fertility and Enhancing Efficiency Through Vocabulary Adaptation",
+    author = "Moroni, Luca  and
+      Puccetti, Giovanni  and
+      Huguet Cabot, Pere-Lluís  and
+      Bejgu, Andrei Stefan  and
+      Miaschi, Alessio  and
+      Barba, Edoardo  and
+      Dell{'}Orletta, Felice  and
+      Esuli, Andrea  and
+      Navigli, Roberto",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.371/",
+    doi = "10.18653/v1/2025.findings-naacl.371",
+    pages = "6661--6675",
+    ISBN = "979-8-89176-195-7",
+    abstract = "The number of pretrained Large Language Models (LLMs) is increasing steadily, though the majority are designed predominantly for the English language. While state-of-the-art LLMs can handle other languages, due to language contamination or some degree of multilingual pretraining data, they are not optimized for non-English languages, leading to inefficient encoding (high token ``fertility'') and slower inference speed.In this work, we thoroughly compare a variety of vocabulary adaptation techniques for optimizing English LLMs for the Italian language, and put forward Semantic Alignment Vocabulary Adaptation (SAVA), a novel method that leverages neural mapping for vocabulary substitution. SAVA achieves competitive performance across multiple downstream tasks, enhancing grounded alignment strategies. We adapt two LLMs: Mistral-7B-v0.1, reducing token fertility by 25{\%}, and Llama-3.1-8B, optimizing the vocabulary and reducing the number of parameters by 1 billion. We show that, following the adaptation of the vocabulary, these models can recover their performance with a relatively limited stage of continual training on the target language. Finally, we test the capabilities of the adapted models on various multi-choice and generative tasks."
+}
+@article{martinelli-etal-2025-bookcoref,
+    title = "{BOOKCOREF}: Coreference Resolution at Book Scale",
+    author = "Martinelli, Giuliano  and
+      Bonomo, Tommaso  and
+      Huguet Cabot, Pere-Lluís  and
+      Navigli, Roberto",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1197/",
+    doi = "10.18653/v1/2025.acl-long.1197",
+    pages = "24526--24544",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Coreference Resolution systems are typically evaluated on benchmarks containing small- to medium-scale documents.When it comes to evaluating long texts, however, existing benchmarks, such as LitBank, remain limited in length and do not adequately assess system capabilities at the book scale, i.e., when co-referring mentions span hundreds of thousands of tokens.To fill this gap, we first put forward a novel automatic pipeline that produces high-quality Coreference Resolution annotations on full narrative texts. Then, we adopt this pipeline to create the first book-scale coreference benchmark, BOOKCOREF, with an average document length of more than 200,000 tokens.We carry out a series of experiments showing the robustness of our automatic procedure and demonstrating the value of our resource, which enables current long-document coreference systems to gain up to +20 CoNLL-F1 points when evaluated on full books.Moreover, we report on the new challenges introduced by this unprecedented book-scale setting, highlighting that current models fail to deliver the same performance they achieve on smaller documents.We release our data and code to encourage research and development of new book-scale Coreference Resolution systems at https://github.com/sapienzanlp/bookcoref."
+}
+@article{ghonim-etal-2025-raed,
+    title = "{RAED}: Retrieval-Augmented Entity Description Generation for Emerging Entity Linking and Disambiguation",
+    author = "Ghonim, Karim  and
+      Huguet Cabot, Pere-Lluís and
+      Orlando, Riccardo  and
+      Navigli, Roberto",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1746/",
+    doi = "10.18653/v1/2025.emnlp-main.1746",
+    pages = "34439--34452",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Entity Linking and Entity Disambiguation systems aim to link entity mentions to their corresponding entries, typically represented by descriptions within a predefined, static knowledge base. Current models assume that these knowledge bases are complete and up-to-date, rendering them incapable of handling entities not yet included therein. However, in an ever-evolving world, new entities emerge regularly, making these static resources insufficient for practical applications. To address this limitation, we introduce RAED, a model that retrieves external knowledge to improve factual grounding in entity descriptions. Using sources such as Wikipedia, RAED effectively disambiguates entities and bases their descriptions on factual information, reducing the dependence on parametric knowledge. Our experiments show that retrieval not only enhances overall description quality metrics, but also reduces hallucinations. Moreover, despite not relying on fixed entity inventories, RAED outperforms systems that require predefined candidate sets at inference time on Entity Disambiguation. Finally, we show that descriptions generated by RAED provide useful entity representations for downstream Entity Linking models, leading to improved performance in the extremely challenging Emerging Entity Linking task."
+}
 @article{stranisci-etal-2024-dissecting,
     title = "Dissecting Biases in Relation Extraction: A Cross-Dataset Analysis on People{'}s Gender and Origin",
     author = "Stranisci, Marco  and
-      \textbf{Huguet Cabot, Pere-Llu{\'\i}s}  and
+      Huguet Cabot, Pere-Llu{\'\i}s  and
       Bassignana, Elisa  and
       Navigli, Roberto",
     journal = "Proceedings of the 5th Workshop on Gender Bias in Natural Language Processing (GeBNLP)",
@@ -14,7 +125,7 @@
 @article{martinez-lorenzo-etal-2024-mitigating,
     title = "Mitigating Data Scarcity in Semantic Parsing across Languages with the Multilingual Semantic Layer and its Dataset",
     author = "Martinez Lorenzo, Abelardo Carlos  and
-      \textbf{Huguet Cabot, Pere-Llu{\'\i}s} and
+      Huguet Cabot, Pere-Llu{\'\i}s and
       Ghonim, Karim  and
       Xu, Lu  and
       Choi, Hee-Soo  and
